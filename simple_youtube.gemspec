@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'activeresource', '>= 3.1'
   s.add_dependency 'rest-client'
-  s.add_dependency 'activemodel', '4.0.0.beta1'
+  s.add_dependency 'activemodel', '~> 4.0.0'
 
   s.add_development_dependency 'fakeweb', '~> 1.3'
   s.add_development_dependency 'rspec', '~> 2.6'
